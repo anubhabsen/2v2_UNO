@@ -18,5 +18,10 @@ for colour in ['red', 'green', 'blue', 'yellow']:
 
 random.shuffle(card_deck)
 
-print 'Shuffled:', card_deck
 
+p1 = card_deck[:7]
+p2 = card_deck[7:14]
+p3 = card_deck[14:21]
+p4 = card_deck[21:28]
+
+discard_deck = card_deck[28:]
