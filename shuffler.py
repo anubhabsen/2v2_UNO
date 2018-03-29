@@ -1,3 +1,7 @@
+import random
+
+# Construct the deck
+
 card_deck = ['wild', 'wild', 'wild', 'wild', 'd4', 'd4', 'd4', 'd4']
 
 for colour in ['red', 'green', 'blue', 'yellow']:
@@ -10,4 +14,9 @@ for colour in ['red', 'green', 'blue', 'yellow']:
 		card = colour + '_' + num
 		card_deck.append(card)
 
-print card_deck
+# Shuffling
+
+random.shuffle(card_deck)
+
+print 'Shuffled:', card_deck
+
